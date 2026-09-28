@@ -1,0 +1,22 @@
+{
+  "name": "mida-3d-design",
+  "version": "1.0.0",
+  "description": "Sistema de diseño 3D paramétrico y compilador autónomo STL para Bambu Lab A1",
+  "type": "module",
+  "scripts": {
+    "export": "node scripts/export_stl.mjs",
+    "export:all": "node scripts/export_stl.mjs --all"
+  },
+  "dependencies": {
+    "openscad-wasm": "^0.0.4"
+  },
+  "keywords": [
+    "openscad",
+    "bambu-lab",
+    "3d-printing",
+    "parametric-cad",
+    "stl-export"
+  ],
+  "author": "",
+  "license": "MIT"
+}

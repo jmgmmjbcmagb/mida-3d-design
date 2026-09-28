@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Models folder content (keep directory structure tracked via .gitkeep)
+models/*
+!models/.gitkeep
+
+# IDE and temporary artifacts
+.agents/scratch/
+.system_generated/
+*.log
